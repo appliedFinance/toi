@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<link href="quizapp.css" rel="stylesheet" type="text/css"/>
+		<link href="grid.css" rel="stylesheet" type="text/css"/>
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+		<title>Quiz App</title>
+	</head>
+	<body>
+	  <main role="main">
+		<div class="row"><div class="col-12">
+		  
+		<div class="start page" role="region">
+			<h1>Quiz</h1>
+			<p class="directions">Your running score will be displayed as you progress, and, at the end, you can choose to review the questions or play again.  </p>
+			<form><button role="button">Start Now</button></form>
+		</div>
+
+		<div class="quiz page hidden" role="region">
+			<span class="question-number" role="region"></span>
+			<div class="question" role="region"></div>
+			<div class="answers" role="region"></div>
+			<div class="feedback" role="region"></div>
+		</div>
+
+		<div class="summary" role="region"></div>
+		
+    </div></div>
+    </main>
+	  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	  <script src="quizapp.js"></script>
+	</body>
+</html>
+
+
+
