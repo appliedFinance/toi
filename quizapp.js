@@ -59,7 +59,7 @@ correct: 3
 {
 question: "An investor is to receive a 15-year $8,000 annuity due, the first payment to be received to today.  At an 11% discount rate, what is this annuities PV?",
 answers: [ "$55,855", "$57,527.", "$63,855.", "$120,000."],
-correct: 4
+correct: 3
 },
 {
 question: "Given an 11% rate of return, the amount needed to be put into an investment account at the end of each of the next 10 years in order to accumulate $60,000 is?",
